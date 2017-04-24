@@ -1,0 +1,15 @@
+<h1>Menu View</h1>
+<a ui-sref="home">Goto Home</a>
+
+
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Short Name</th>
+  </tr>
+
+  <tr ng-repeat="item in menuCtrl.items.menu_items">
+    <td>{{item.id}}</td>
+    <td>{{item.name}}</td>
+  </tr>
+</table>

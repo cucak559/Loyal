@@ -1,0 +1,135 @@
+{
+	"users": [
+		{
+			"id": 0,
+			"name": "Tomas",
+			"password": "0000",
+			"email": "tomasjanicek221@gmail.com",
+			"bonusItems": 2,
+			"shoppingCart": [],
+			"itemsBought": []
+		},
+		{
+			"id": 1,
+			"name": "Tomas",
+			"password": "0000",
+			"email": "tomasjanicek221@gmail.com",
+			"bonusItems": 2,
+			"shoppingCart": [],
+			"itemsBought": []
+		},
+		{
+			"id": 2,
+			"name": "Tomas",
+			"password": "0000",
+			"email": "tomasjanicek221@gmail.com",
+			"bonusItems": 2,
+			"shoppingCart": [],
+			"itemsBought": []
+		},
+		{
+			"id": 3,
+			"name": "Tomas",
+			"password": "0000",
+			"email": "tomasjanicek221@gmail.com",
+			"bonusItems": 2,
+			"shoppingCart": [],
+			"itemsBought": []
+		},
+		{
+			"id": 4,
+			"name": "Tomas",
+			"password": "0000",
+			"email": "tomasjanicek221@gmail.com",
+			"bonusItems": 2,
+			"shoppingCart": [],
+			"itemsBought": []
+		}
+	],
+	"items" : [
+		{
+			"id": 0,
+			"name": "PC",
+			"description": "It is very cool!",
+			"label": "New!",
+			"price": "9,99",
+			"image": "",
+			"comments": [
+				{
+					"author": "Tomas",
+					"rating": 4,
+					"comment": "Cool shiat!",
+					"date": "2012-10-16T17:57:28.556094Z"
+				},
+				{
+					"author": "Tomas",
+					"rating": 4,
+					"comment": "Cool shiat!",
+					"date": "2012-10-16T17:57:28.556094Z"
+				},
+				{
+					"author": "Tomas",
+					"rating": 4,
+					"comment": "Cool shiat!",
+					"date": "2012-10-16T17:57:28.556094Z"
+				}
+			]
+		},
+		{
+			"id": 1,
+			"name": "MP3",
+			"description": "It is very cool!",
+			"label": "New!",
+			"price": "9,99",
+			"image": "",
+			"comments": [
+				{
+					"author": "Tomas",
+					"rating": 4,
+					"comment": "Cool shiat!",
+					"date": "2012-10-16T17:57:28.556094Z"
+				},
+				{
+					"author": "Tomas",
+					"rating": 4,
+					"comment": "Cool shiat!",
+					"date": "2012-10-16T17:57:28.556094Z"
+				},
+				{
+					"author": "Tomas",
+					"rating": 4,
+					"comment": "Cool shiat!",
+					"date": "2012-10-16T17:57:28.556094Z"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"name": "Laptop",
+			"description": "It is very cool!",
+			"label": "New!",
+			"price": "9,99",
+			"image": "",
+			"comments": [
+				{
+					"author": "Tomas",
+					"rating": 4,
+					"comment": "Cool shiat!",
+					"date": "2012-10-16T17:57:28.556094Z"
+				},
+				{
+					"author": "Tomas",
+					"rating": 4,
+					"comment": "Cool shiat!",
+					"date": "2012-10-16T17:57:28.556094Z"
+				},
+				{
+					"author": "Tomas",
+					"rating": 4,
+					"comment": "Cool shiat!",
+					"date": "2012-10-16T17:57:28.556094Z"
+				}
+			]
+		}
+	]
+}
