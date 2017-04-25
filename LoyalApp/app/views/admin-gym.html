@@ -1,0 +1,32 @@
+<div class="col-md-6 col-md-offset-3">
+    <h2>Pridať telocvičňu</h2>
+    <form name="form"  role="form" novalidate>
+        <div class="form-group" ng-class="{ 'has-error': form.name.$dirty && form.name.$error.required }">
+            <label for="name">Meno</label>
+            <input type="text" name="name" id="name" class="form-control" ng-model="adminGymctrl.gym.name" required />
+            <span ng-show="form.name.$dirty && form.name.$error.required" class="help-block">Name is required</span>
+        </div>
+        
+        <div class="form-actions">
+            <button type="submit" ng-disabled="form.$invalid" ng-click="adminGymctrl.submit();" class="btn btn-primary">Pridať</button>
+            
+    </form>
+     <h2>Odstrániť telocvičňu</h2>
+    <table>
+    	<tr>
+    		<th>Meno</th>
+    		<th>ID</th>
+    	</tr>
+    	
+    	<tr>
+    	<td>1</td>
+    	<td>Telocvičňa</td>
+    	<td><button>Odstrániť telocvičňu</button></td>
+		</tr>
+
+    </table>
+           
+            
+        </div>
+    
+</div>

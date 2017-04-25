@@ -4,8 +4,8 @@
     angular.module('loyal')
        .controller('LoginController', LoginController);
  
-    //LoginController.$inject = [];
-    function LoginController() {
+    LoginController.$inject = ["$state"];
+    function LoginController($state) {
         var loginctrl = this;
 
         loginctrl.user = {
@@ -15,6 +15,12 @@
 
         
         loginctrl.submit= function () {
+        	if ((loginctrl.user.username ==="meno") && (loginctrl.user.password ==="heslo")) {
+              		$state.go("admin");
+        	}
+        	else {
+        	$state.go("user");
+        	}
         	console.log(loginctrl.user);
         };
 

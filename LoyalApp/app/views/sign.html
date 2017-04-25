@@ -22,8 +22,15 @@
             <input type="password" name="password" id="password" class="form-control" ng-model="signctrl.user.password" required />
             <span ng-show="form.password.$dirty && form.password.$error.required" class="help-block">Password is required</span>
         </div>
+        
+        <div class="form-group" ng-class="{ 'has-error': form.email.$dirty && form.email.$error.required }">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="emailemail" class="form-control" ng-model="signctrl.user.email" required />
+            <span ng-show="form.email.$dirty && form.email.$error.required" class="help-block">Email is required</span>
+
+
         <div class="form-actions">
-            <button ui-sref="user" type="submit" ng-disabled="form.$invalid" ng-click="signctrl.submit();" class="btn btn-primary">Register</button>
+            <button type="submit" ng-disabled="form.$invalid" ng-click="signctrl.submit();" class="btn btn-primary">Register</button>
             
            
             <a ui-sref="home" class="btn btn-link">Cancel</a>

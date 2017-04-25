@@ -28,8 +28,19 @@ function RoutesConfig($stateProvider, $urlRouterProvider) {
 
   .state('admin', {
     url: '/admin',
-    templateUrl: 'views/admin.html',
-    controller: 'adminController as adminctrl'
+    templateUrl: 'views/admin.html',    
+  })
+
+  .state('admin-gym', {
+    url: '/admin-gym',
+    templateUrl: 'views/admin-gym.html',
+    controller: 'adminGymController as adminGymctrl'
+  })
+
+  .state('admin-reserve', {
+    url: '/admin-reserve',
+    templateUrl: 'views/admin-reserve.html',
+    controller: 'adminReserveController as adminReservectrl'
   })
 
 
