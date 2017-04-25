@@ -20,6 +20,20 @@ function RoutesConfig($stateProvider, $urlRouterProvider) {
     templateUrl: 'views/home.html'
   })
 
+
+  .state('login', {
+    url: '/',
+    templateUrl: 'views/login.html',
+    controller: 'LoginController as loginctrl'
+  })
+
+
+  .state('sign', {
+    url: '/',
+    templateUrl: 'views/sign.html',
+    controller: 'signController as signctrl'
+  });
+
 };
   
   
