@@ -39,20 +39,19 @@
           <div class="collapse navbar-collapse" id="js-navbar-collapse">
 
             <ul class="nav navbar-nav">
-              <li class="active"><a ui-sref="home">Home</a></li>
-              <li><a ui-sref="menu">Menu</a></li>
+              <li ui-sref-active="active"><a ui-sref="home" >Home</a></li>
+              <li ui-sref-active="active"><a ui-sref="items" >Items</a></li>              
             </ul>
           </div>
         </div>
       </div>
     </div>
      
-    <ui-view> 
-    </ui-view>
+    <ui-view><img src="images/loading/default.gif" alt="loading"></ui-view>
 
     <div class="footer">
       <div class="container">
-        <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
+       
       </div>
     </div>
 
@@ -82,9 +81,11 @@
         <script src="scripts/loyal.module.js"></script>
         <script src="scripts/routes.js"></script>
        
-        <script src="scripts/controllers/MenuController.controller.js"></script>     
+        <script src="scripts/controllers/items.controller.js"></script>    
+        <script src="scripts/controllers/itemDetail.controller.js"></script>   
 
-         <script src="scripts\services\MenuService.service.js"></script>    
+         <script src="scripts\services\items.service.js"></script>    
+         <script src="scripts\services\itemDetail.service.js"></script>    
         <!-- endbuild -->
 </body>
 </html>
