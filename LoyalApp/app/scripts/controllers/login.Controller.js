@@ -13,6 +13,7 @@
         	password:""
         };
 
+        
         loginctrl.submit= function () {
         	console.log(loginctrl.user);
         };

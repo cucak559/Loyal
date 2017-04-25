@@ -23,7 +23,7 @@
             <span ng-show="form.password.$dirty && form.password.$error.required" class="help-block">Password is required</span>
         </div>
         <div class="form-actions">
-            <button type="submit" ng-disabled="form.$invalid" ng-click="signctrl.submit();" class="btn btn-primary">Register</button>
+            <button ui-sref="user" type="submit" ng-disabled="form.$invalid" ng-click="signctrl.submit();" class="btn btn-primary">Register</button>
             
            
             <a ui-sref="home" class="btn btn-link">Cancel</a>
